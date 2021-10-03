@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ProjPopupBox02';
+
+  cAtive: string = '';
+
+  fnAbrir(){
+    this.cAtive = 'toggle';
+  }
+
+  fnFechar(){
+    this.cAtive = '';
+  }
 }
